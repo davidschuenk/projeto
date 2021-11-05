@@ -1,0 +1,70 @@
+body{
+
+    padding-top: 0;
+    padding-left: 0;
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,12,128,1) 35%, rgba(4,102,144,1) 100%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;    
+    box-shadow: 3px 3px red, -1em 0 0.4em olive;
+}
+#logoheader{
+    display: flex; 
+    flex-direction: row;
+    align-content:flex-end ;
+     color: white;
+     height: 200px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: yellow;
+    font-size: x-large;
+    
+} 
+#menu{
+    
+    margin-left: 600px;
+    height: 100px;
+    font-size: larger;
+    display: inline-flex;
+    align-items: center;
+ 
+   
+}
+.escolhamenu{
+    display: inline-block;
+     text-align: center;
+      margin-top: 40px;
+      width: 100px;
+      height: 50px;
+     
+}
+button {
+    background-color: white;
+    border: 2px solid #4CAF50;
+    color:black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}

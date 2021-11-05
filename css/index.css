@@ -1,0 +1,116 @@
+body{
+
+    padding-top: 0;
+    padding-left: 0;
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,12,128,1) 35%, rgba(4,102,144,1) 100%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;    
+    box-shadow: 3px 3px red, -1em 0 0.4em olive;
+}
+#logoheader{
+    display: flex; 
+    flex-direction: row;
+    align-content:flex-end ;
+     color: white;
+     height: 200px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: yellow;
+    font-size: x-large;
+    
+} 
+#menu{
+    
+    margin-left: 600px;
+    height: 100px;
+    font-size: larger;
+    display: inline-flex;
+    align-items: center;
+ 
+   
+}
+.escolhamenu{
+    display: inline-block;
+     text-align: center;
+      margin-top: 40px;
+      width: 100px;
+      height: 50px;
+     
+}
+#maindiv1{
+    text-align: center;
+    font-size: 170px;
+     margin-top: 50px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     background: -webkit-linear-gradient(#eee, #333);
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+#maindiv2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(150, 148, 148);
+}
+#butaomatricula{
+    width: 500px;
+    height: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 700px;
+    margin-top: 20px;
+    background: #069cc2;
+    border-radius: 6px;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+#butaomatricula:hover{
+    background: #fff;
+    border: 2px solid #069cc2 ;
+    color: #069cc2 ;
+}
+#muaythai10{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     background: -webkit-linear-gradient(#eee,#333);
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+#saibamais{
+    width: 500px;
+    height: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 700px;
+    margin-top: 70px;
+    background: #069cc2;
+    border-radius: 6px;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+#saibamais:hover{
+    background: #fff;
+    border: 2px solid #069cc2 ;
+    color: #069cc2 ;
+}
+

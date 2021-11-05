@@ -1,0 +1,84 @@
+body{
+
+    padding-top: 0;
+    padding-left: 0;
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,12,128,1) 35%, rgba(4,102,144,1) 100%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;   
+     box-shadow: 3px 3px red, -1em 0 0.4em olive; 
+}
+#logoheader{
+    display: flex; 
+    flex-direction: row;
+    align-content:flex-end ;
+     color: white;
+     height: 200px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: yellow;
+    font-size: x-large;
+    
+} 
+#menu{
+    
+    margin-left: 600px;
+    height: 100px;
+    font-size: larger;
+    display: inline-flex;
+    align-items: center;
+ 
+   
+}
+.escolhamenu{
+    display: inline-block;
+     text-align: center;
+      margin-top: 40px;
+      width: 100px;
+      height: 50px;
+     
+}
+
+.rad-label {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    border-radius: 100px;
+    padding: 14px 16px;
+    margin: 10px 0;
+  
+    cursor: pointer;
+    transition: .3s;
+  }
+hr{
+    color: springgreen;
+}
+
+button {
+    font-size: xx-large;
+        margin-left: 250px;
+        width: 200px;
+        height: 50px;
+        background-color: white;
+        border: 2px solid #4CAF50;
+        color:black;
+        transition-duration: 0.4s;
+        border-radius: 30px;
+    }
+    button:hover{
+        transition-duration: 0.4s;
+        background-color: #4CAF50;
+        color: white;
+        }
